@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+#container {
+  width: 908px;
+  margin: auto;
+}
+
+.product-1 {
+  background-image: url('../img/pd1.jpg');
+}
+.product-2 {
+  background-image: url('../img/pd2.jpg');
+}
+.product-3 {
+  background-image: url('../img/pd3.jpg');
+}
+
+.product-1, .product-2, .product-3 {
+  background-size: cover;
+  width: 300px;
+  height: 372px;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.discount-1, .discount-3 {
+  background-color: green;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  cursor: default;
+}
+.discount-2 {
+  background-color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  cursor: default;
+}
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding-bottom: 15px;
+  display: none;
+  cursor: pointer;
+}
+[class^=product]:hover .heart {
+  display: block;
+}
