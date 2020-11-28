@@ -31,6 +31,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .discount-1, .discount-3 {
@@ -40,7 +41,7 @@ body {
   top: 0;
   right: 0;
   padding: 2px;
-  cursor: default;
+  cursor: pointer;
 }
 .discount-2 {
   background-color: red;
@@ -49,7 +50,7 @@ body {
   top: 0;
   right: 0;
   padding: 2px;
-  cursor: default;
+  cursor: pointer;
 }
 
 .heart {
